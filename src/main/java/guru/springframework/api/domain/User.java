@@ -2,9 +2,12 @@ package guru.springframework.api.domain;
 
 import lombok.Data;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @Data
 public class User {
-    private Gender gender;
+    private String gender;
     private Name name;
     private Location location;
     private String email;
